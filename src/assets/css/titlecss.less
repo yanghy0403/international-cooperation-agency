@@ -1,0 +1,462 @@
+.titleDiv {
+  height: 60px;
+  margin: 0 20px;
+
+  .titleName {
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+    color: #393939;
+    font-weight: 600;
+  }
+
+  .operating {
+    float: right;
+    width: 44px;
+    height: 60px;
+    position: relative;
+
+    .centerDiv {
+      position: absolute;
+      width: 44px;
+      height: 22px;
+      top: 11px;
+      left: 0;
+
+      img {
+        width: 44px;
+        height: 22px;
+        float: left;
+      }
+    }
+
+    .centerLeftDiv {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 0;
+      top: 11px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0);
+      cursor: pointer;
+    }
+
+    .centerRightDiv {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 22px;
+      top: 11px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0);
+      cursor: pointer;
+
+    }
+
+    .iconDiv {
+      width: 22px;
+      height: 22px;
+      border: 1px solid #ed2424;
+      position: absolute;
+      left: 22px;
+      top: 11px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0);
+      cursor: pointer;
+    }
+  }
+}
+
+.titleDiv2 {
+  height: 70px;
+  margin: 0 20px;
+  overflow: hidden;
+  position: relative;
+
+  .titleName {
+    float: left;
+    font-size: 20px;
+    line-height: 62px;
+    font-weight: 600;
+    color: #191919;
+  }
+
+  .titleCenter {
+    width: 202px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    display: flex;
+    align-items: center;
+
+    div {
+      width: 101px;
+      height: 22px;
+      background: #d3d6dd;
+      text-align: center;
+      line-height: 22px;
+      color: #6f6f6f;
+      font-size: 14px;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .operating {
+    float: right;
+    width: 44px;
+    height: 70px;
+    position: relative;
+
+    .centerDiv {
+      position: absolute;
+      width: 44px;
+      height: 22px;
+      top: 20px;
+      left: 0;
+
+      img {
+        width: 44px;
+        height: 22px;
+        float: left;
+      }
+    }
+
+    .centerLeftDiv {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 0;
+      top: 20px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0);
+      cursor: pointer;
+    }
+
+    .centerRightDiv {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 22px;
+      top: 20px;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0);
+      cursor: pointer;
+
+    }
+  }
+}
+.newTableExchange{
+  //头部的样式
+  /deep/ .el-table__header-wrapper {
+    background: #e9ebee !important;
+    height: 50px !important;
+    color: #191919;
+  }
+}
+
+.newTablePerson{
+  //头部的样式
+  /deep/ .el-table__header-wrapper {
+    background: #e9ebee !important;
+    height: 80px !important;
+    color: #191919;
+  }
+}
+
+.newTable {
+  position: relative;
+
+  //头部的样式
+  /deep/ .el-table__header-wrapper {
+    background: #e9ebee !important;
+    height: 50px ;
+    color: #191919;
+  }
+
+  //body的样式
+  /deep/ .el-table__body-wrapper {
+    height: 80%;
+    overflow-y: scroll;
+    //overflow-x: scroll;
+  }
+
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar {
+    width: 3px !important;
+    height: 4.5px !important;
+    /**/
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0)  !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background: #ff3925 !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #ff3925 !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0 ,0)  !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0) !important;
+  }
+
+  /deep/ .el-table {
+    border: 1px solid #e9ebee !important;
+    background: #f4f5f7 !important;
+    //background: rgba(0,0,0,0)!important;
+    height: 100% !important;
+    tr {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    th {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    td {
+      height: 43px !important;
+      line-height: 43px !important;
+      padding: 0 0 !important;
+    }
+  }
+}
+
+.newTable2 {
+  position: relative;
+
+  //头部的样式
+  /deep/ .el-table__header-wrapper {
+    background: #e9ebee !important;
+    height: 50px !important;
+    color: #191919;
+  }
+
+  //body的样式
+  /deep/ .el-table__body-wrapper {
+    height: 100%;
+    overflow-y: scroll;
+    //overflow-x: scroll;
+  }
+
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+    /**/
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0) !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background: #ff3925 !important;
+    /*background: #cfd9e3;*/
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #ff3925 !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0 ,0) !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0)!important;
+  }
+
+  /deep/ .el-table {
+    border: 1px solid #e9ebee !important;
+    background: #f4f5f7 !important;
+    tr {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    th {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    td {
+      height: 43px !important;
+      line-height: 43px !important;
+      padding: 0 0 !important;
+    }
+  }
+}
+
+.newTable3 {
+  position: relative;
+
+  //头部的样式
+  /deep/ .el-table__header-wrapper {
+    background: #e9ebee !important;
+    height: 50px !important;
+    color: #191919;
+  }
+
+  //body的样式
+  /deep/ .el-table__body-wrapper {
+    height: 310px;
+    overflow-y: scroll;
+    //overflow-x: scroll;
+  }
+
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar {
+    width: 3px !important;
+    height: 5px !important;
+    /**/
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0) !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background: #ff3925 !important;
+    /*background: #cfd9e3;*/
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #ff3925 !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0 ,0) !important;
+  }
+
+  /deep/ .el-table__body-wrapper::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0 ,0)!important;
+  }
+
+  /deep/ .el-table {
+    border: 1px solid #e9ebee !important;
+    background: #f4f5f7 !important;
+    tr {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    th {
+      background: rgba(0, 0, 0, 0) !important
+    }
+
+    td {
+      height: 43px !important;
+      line-height: 43px !important;
+      padding: 0 0 !important;
+    }
+  }
+}
+
+.CooperationTrack2 {
+  margin: 0 20px;
+  height: 340px;
+
+  .tabDIv {
+    height: 320px;
+    width: 100%;
+    position: relative;
+    /*margin:0 40px;*/
+  }
+}
+
+.indexTitleDiv {
+  width: 100%;
+  height: 40px;
+  // display: flex;
+  line-height: 40px;
+  .titleName {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #393939;
+    width: 50%;
+    
+  }
+
+  .operating {
+    // display: flex;
+    float: right;
+    overflow: hidden;
+    .iconDiv {
+      float: left;
+      width: 22px;
+      height: 22px;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+    .download {
+      width: 22px;
+      height: 22px;
+      background: url("../images/exchange//导出按钮-默认状态.png") no-repeat;
+      background-size: 22px 22px;
+      cursor: pointer;
+      margin-right: 4px;
+      margin-top: 10px;
+
+      &:hover {
+        background: url("../images/exchange/导出按钮-选中状态.png") no-repeat;
+        background-size: 22px 22px;
+      }
+    }
+
+    .downloadNew {
+      width: 22px;
+      height: 22px;
+      background: url("../images/exchange/导出按钮-默认状态.png") no-repeat;
+      background-size: 22px 22px;
+      cursor: pointer;
+      margin-right: 4px;
+      margin-top: 10px;
+
+      &:hover {
+        background: url("../images/exchange/导出按钮-选中状态.png") no-repeat;
+        background-size: 22px 22px;
+      }
+    }
+
+
+
+    .fullScreen {
+      width: 22px;
+      height: 22px;
+      background: url("../images/国际人才/index/全屏默认.png") no-repeat;
+      background-size: 22px 22px;
+      cursor: pointer;
+      margin-left: 4px;
+      margin-top: 10px;
+
+      &:hover {
+        background: url("../images/国际人才/index/全屏选中.png") no-repeat;
+        background-size: 22px 22px;
+      }
+    }
+    .fullScreensPlus {
+      width: 22px;
+      height: 22px;
+      background: url("../images/国际人才/index/全屏返回默认.png") no-repeat;
+      background-size: 22px 22px;
+      cursor: pointer;
+      margin-left: 4px;
+      margin-top: 10px;
+
+      &:hover {
+        background: url("../images/国际人才/index/全屏返回默认.png") no-repeat;
+        background-size: 22px 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+.application {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .application-fl {
+    width: 16%;
+    height: 100%;
+    padding: 2%;
+    background: #1f2e45;
+    position: relative;
+
+    .app-logo {
+      cursor: pointer;
+      img {
+        float: left;
+        margin-right: 6px;
+        width: 50px;
+        height: 50px;
+      }
+
+      p {
+        font-size: 17px;
+        color: #fff;
+      }
+    }
+
+    .appTitle {
+      margin-top: 124px;
+      color: #ff3925;
+      font-size: 46px;
+    }
+
+    .app-nav {
+      margin-top: 120px;
+
+      div {
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        color: #d3d3d3;
+        font-family: PingFangSC-Ultralight;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .navActive {
+        color: #ff3925;
+      }
+    }
+
+    .app-btm {
+      cursor: pointer;
+      width: 200px;
+      position: absolute;
+      bottom: 38px;
+
+      .iconfontClose {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 3px solid #fff;
+        border-radius: 50px;
+        text-align: center;
+        margin-right: 12px;
+
+        i {
+          color: #fff;
+          font-size: 18px;
+          line-height: 44px;
+        }
+      }
+
+      .closeName {
+        color: #fff;
+        line-height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    .app-btm:hover {
+      .iconfontClose {
+        border: 3px solid #ff3a25;
+
+        i {
+          color: #ff3a25;
+        }
+      }
+
+      .closeName {
+        color: #ff3a25;
+      }
+    }
+  }
+
+  .application-fr {
+    width: 84%;
+    background: #f3f5f7;
+    overflow: auto;
+
+    .fr-header {
+      height: 100px;
+      // line-height: 100px;
+      width: 100%;
+      background: #fafafa;
+      display: flex;
+
+      // margin: 0 auto;
+      .condition {
+        display: flex;
+        margin: 0 auto;
+        width: 600px;
+
+        .country {
+          margin-top: 30px;
+
+          /deep/ .el-select {
+            width: 360px;
+            color: #393939;
+          }
+
+          /deep/ .el-input__inner {
+            background: #e2e6ed;
+            height: 40px;
+            line-height: 40px;
+          }
+
+          /deep/ .el-input__inner::-webkit-input-placeholder {
+            color: #727272;
+          }
+
+          /deep/ .el-input__inner::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #727272;
+          }
+
+          /deep/ .el-input__inner:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #727272;
+          }
+
+          /deep/ .el-input__inner:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #727272;
+          }
+          /deep/ .el-select .el-input.is-focus .el-input__inner {
+            border-color: "#ccc"
+          }
+
+          /deep/ .ivu-select {
+            width: 360px;
+            color: #393939;
+          }
+
+          /deep/ .ivu-select-selection {
+            background: #e2e6ed;
+            height: 40px;
+            line-height: 40px;
+          }
+
+          /deep/ .ivu-select-input::-webkit-input-placeholder {
+            color: #727272;
+          }
+
+          /deep/ .ivu-select-input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #727272;
+          }
+
+          /deep/ .ivu-select-input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #727272;
+          }
+
+          /deep/ .ivu-select-input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #727272;
+          }
+
+        }
+
+        .header-report {
+          width: 150px;
+          height: 40px;
+          background: #e2e6ed;
+          color: #727272;
+          border-radius: 10px;
+          text-align: center;
+          line-height: 40px;
+          margin: 30px 20px 0px 10px;
+          cursor: pointer;
+          &:hover {
+            background: #ff3925;
+            color: #fff;
+          }
+        }
+        .header-report-active {
+          width: 150px;
+          height: 40px;
+          background: #ff3925;
+          color: #fff;
+          border-radius: 10px;
+          text-align: center;
+          line-height: 40px;
+          margin: 30px 20px 0px 10px;
+          cursor: pointer;
+        }
+
+        .DownloadAlls {
+          width: 40px;
+          height: 40px;
+          color: #727272;
+          text-align: center;
+          line-height: 40px;
+          background: #e2e6ed;
+          margin-top: 30px;
+          cursor: pointer;
+          &:hover {
+            background: #ff3925;
+            color: #fff;
+          }
+        }
+        .DownloadAlls-active {
+          width: 40px;
+          height: 40px;
+          color: #fff;
+          text-align: center;
+          line-height: 40px;
+          background: #ff3925;
+          margin-top: 30px;
+          cursor: pointer;
+        }
+      }
+
+      .header-fr {
+        float: right;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+        ul {
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+
+          li {
+            border-radius: 3px;
+            cursor: pointer;
+          }
+
+          .li1 {
+            width: 40px;
+            height: 40px;
+            margin-right: 3px;
+            background: url("../../images/国际人才/details/收藏-默认状态.png") no-repeat;
+            background-size: 40px 40px;
+
+            &:hover {
+              background: url("../../images/国际人才/details/收藏-选中状态.png")no-repeat;
+              background-size: 40px 40px;
+            }
+          }
+
+          .li2 {
+            width: 40px;
+            height: 40px;
+            margin-right: 49px;
+            background: url("../../images/国际人才/details/分享-默认状态.png") no-repeat;
+            background-size: 40px 40px;
+
+            &:hover {
+              background: url("../../images/国际人才/details/分享-选中状态.png")no-repeat;
+              background-size: 40px 40px;
+            }
+          }
+
+        }
+
+        .login {
+          text-align: center;
+
+          img {
+            width: 24px;
+            height: 29px;
+          }
+
+          p {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+
+    .record-info {
+      margin: 20px;
+
+      img {
+        margin-right: 10px;
+      }
+
+      .line {
+        margin: 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echarts</title>
+    <style>
+        .map {
+            width: 1200px;
+            height: 700px;
+        }
+    </style>
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.js"></script>
+    <!-- <script src="./echarts/echarts.js "></script> -->
+    <!-- <script src="./countries-js/china-cities.js"></script>-->
+    <!-- <script src="./countries-js/china.js"></script> -->
+    <!-- <script src="./countries-js/world.js"></script>  -->
+
+    <!-- <script src="./text.js"></script> -->
+    <!-- <script src="./dist/countries.js"></script> -->
+    <!-- <script src="./geoJson.js"></script> -->
+    <script src="./world.js"></script>
+    <script>
+        // console.log(json);
+    </script>
+</head>
+
+<body>
+    <div class="map" id="china-cities"></div>
+    <script>
+        // function make_map(cityname, dom_id) {
+        let achart = echarts.init(document.getElementById('china-cities'));
+        var option = {
+
+            "legend": [{
+                "selectedMode": "multiple",
+                "top": "top",
+                "orient": "horizontal",
+                "data": [
+                    ""
+                ],
+                "left": "center",
+                "show": true
+            }],
+
+            "series": [{
+                "mapType": 'text',
+                "data": [],
+                "name": "",
+                "symbol": "circle",
+                "type": "map",
+                "roam": true
+            },
+                // {
+                //     "mapType": 'china-cities',
+                //     "data": [],
+                //     "name": "",
+                //     "symbol": "circle",
+                //     "type": "map",
+                //     "roam": true
+                // }
+            ]
+        };
+        achart.setOption(option, true);
+        achart.on('dataZoom', function (e) {
+            //console.log(e);
+        });
+        // }
+    </script>
+</body>
+
+</html>

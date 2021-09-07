@@ -1,0 +1,73 @@
+.ivu-select-visible .ivu-select-selection {
+  border: none;
+  box-shadow: none;
+}
+
+.ivu-select-selection {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transition: none !important;
+  border: none !important;
+}
+
+.ivu-select-selection:hover {
+  border: none !important;
+}
+
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+  text-align: center;
+  color: #727272 !important;
+  font-size: 14px !important;
+}
+
+.ivu-select-selected-value {
+  text-align: center;
+  color: #727272;
+  font-size: 14px !important;
+}
+
+.ivu-select-large .ivu-select-input {
+  text-align: center;
+  color: #727272 !important;
+  font-size: 14px !important;
+}
+
+.ivu-select-selection input {
+  text-align: center;
+  color: #727272 !important;
+}
+
+
+.ivu-select  {
+  border: solid 1px #d9dde4;
+}
+.ivu-select-dropdown::-webkit-scrollbar {
+  width : 5px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+.ivu-select-dropdown::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  background   : #c5c9cf;
+  }
+  .ivu-select-dropdown::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  background   : #ededed;
+  }
+  .ivu-select-dropdown-list li {
+    line-height: 14px !important;
+  }
+
+  .ivu-select-dropdown {
+    max-height: 190px;
+  }
+
+  .el-radio__input.is-checked .el-radio__inner {
+    border-color: #ff3a25 !important;
+    background: #ff3a25 !important;
+  }
+  .el-cascader-node.in-active-path, .el-cascader-node.is-active, .el-cascader-node.is-selectable.in-checked-path {
+    color: #ff3a25 !important;
+  }
+  .el-radio__inner:hover {
+    border-color: #ff3a25 !important;
+  }

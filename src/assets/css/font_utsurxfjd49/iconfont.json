@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "761309",
+      "name": "帮助",
+      "font_class": "icon",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "4425849",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e7a3",
+      "unicode_decimal": 59299
+    },
+    {
+      "icon_id": "7131912",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+/* 方法一 */
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  html {
+    font-size: 12px;
+  }
+}
+/* @media (min-width: 1280px) { html{font-size: 22px;} } */
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 2048px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 4096px) {
+  html {
+    font-size: 40px;
+  }
+}

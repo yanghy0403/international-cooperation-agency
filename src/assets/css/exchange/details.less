@@ -1,0 +1,123 @@
+.workExperience{
+  overflow-y: scroll !important;
+
+  /*width:10px;*/
+  /*height:10px;*/
+  /*三角箭头的颜色*/
+  scrollbar-arrow-color: rgba(0, 0, 0, 0) !important;
+  /*滚动条滑块按钮的颜色*/
+  scrollbar-face-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条整体颜色*/
+  scrollbar-highlight-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条阴影*/
+  scrollbar-shadow-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条轨道颜色*/
+  scrollbar-track-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条3d亮色阴影边框的外观颜色——左边和上边的阴影色*/
+  scrollbar-3dlight-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条3d暗色阴影边框的外观颜色——右边和下边的阴影色*/
+  scrollbar-darkshadow-color: rgba(0, 0, 0, 0)!important;
+  /*滚动条基准颜色*/
+  scrollbar-base-color: rgba(0, 0, 0, 0)!important;
+}
+.workExperience::-webkit-scrollbar {
+  width: 5px!important;
+  /*height: 10px!important;*/
+}
+
+.workExperience::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0)!important;
+  border-radius: 1px!important;
+}
+
+.workExperience::-webkit-scrollbar-thumb {
+  /*background: rgba(0,0,0,0)!important;*/
+  background:red;
+  border-radius: 1px!important;
+}
+
+.workExperience::-webkit-scrollbar-thumb:hover {
+  background:red;
+  /*background: rgba(0,0,0,0)!important;*/
+}
+
+.workExperience::-webkit-scrollbar-corner {
+  background:red;
+  /*background: rgba(0,0,0,0)!important;*/
+}
+
+.workExperience::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0)!important;
+}
+
+
+.workExperience {
+  margin-right:40px;
+  height:310px;
+  ul {
+    margin-left: 120px;
+    li {
+      position: relative;
+      padding: 0 0 12px;
+      margin-left: 62px;
+      min-height: 63px;
+      .ivu-timeline-item-content{
+        .time {
+          position: absolute;
+          left: -60px;
+          top: 0;
+          color: #ff3925;
+          font-weight: bold;
+        }
+        .content{
+          color: #6f6f6f;
+          font-size: 14px;
+          line-height:22px;
+        }
+        p:nth-of-type(1){
+          margin-top:0px;
+        }
+        p:nth-of-type(2){
+          margin-top:0px;
+        }
+        p{
+          margin-top:10px;
+        }
+      }
+
+      .ivu-timeline-item-head-blue {
+        color: #ff3925;
+        border-color: #ff3925;
+      }
+      .ivu-timeline-item-head {
+        width: 10px;
+        height: 10px;
+        margin-top: 3px;
+      }
+      .ivu-timeline-item-tail {
+        border-left: 0.005208rem solid #ff3925;
+        opacity: 0.1;
+        left: 5px;
+      }
+    }
+    /deep/ .ivu-timeline-item:last-child .ivu-timeline-item-tail {
+      height:39px!important;
+      display:block!important;
+    }
+  }
+}
+.workExperience2 {
+  margin:0 20px;
+  height:330px;
+  .tabDIv{
+    height:310px;
+    width:100%;
+    overflow: auto;
+    .tabletitle{
+      line-height: 29px;
+      font-size: 15px;
+      font-weight: 600;
+      margin:15px 0  5px;
+    }
+  }
+}
